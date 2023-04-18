@@ -50,18 +50,20 @@
 
         </div>
 
-        <div class="other">
-            <li>
-                <form action="index.php?controller=product&action=search" method="POST">
+        <form action="index.php?controller=product&action=search" method="POST">
                     <div class="input-group">
-                        <input type="text" name="searchtext" class="form-control" placeholder="Search product">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="submit">
-                                <i class="fa fa-search"></i>
+                        <input type="text" name="searchtext" class="form-control" style="font-size: 12px;" placeholder="Search product">
+                        <div class="input-group-append" >
+                            <button class="btn btn-secondary" style="padding: 0 12px;" type="submit">
+                                <i  class="fa fa-search"></i>
                             </button>
                         </div>
                     </div>
-                </form>
+        </form>
+
+        <div class="other">
+            <li>
+
             </li>
             <li>
                 <div class="header-other_search-list">
